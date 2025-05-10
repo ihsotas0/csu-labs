@@ -1,0 +1,124 @@
+<h1 id="introduction">Introduction</h1>
+<p>Kirchhoff’s Current and Voltage Laws are essential for circuit analysis. Understanding their applications and method of calculation through real world circuits helps to ground their concepts in reality.</p>
+<h1 id="exercise-a">Exercise A</h1>
+<ol type="1">
+<li><p>The multimeter reads the current from (b) to (c’) and the voltage between (b) and (c’), and (a) and (c’).</p>
+<figure>
+<img src="img_1.png" alt="" /><figcaption>Voltage Divider</figcaption>
+</figure></li>
+<li><p>Assuming <span class="math inline"><em>V</em><sub><em>o</em><em>u</em><em>t</em></sub></span> is the voltage after R1/across R2, between node (b) and (c’), to find the values of R1 and R2 given a required <span class="math inline"><em>V</em><sub><em>o</em><em>u</em><em>t</em></sub></span> and required <span class="math inline"><em>I</em></span>, with arbitrary <span class="math inline"><em>V</em></span>:</p>
+<p><br /><span class="math display">$$ V_{out} = I R_2 \implies \boxed{R_2 = \frac{V_{out}}{I}} $$</span><br /></p>
+<p><br /><span class="math display">$$ V = I R_1 + V_{out} \implies \boxed{R_1 = \frac{V-V_{out}}{I}} $$</span><br /></p>
+<p>With <span class="math inline"><em>V</em> = 5<em>V</em></span>, <span class="math inline"><em>V</em><sub><em>o</em><em>u</em><em>t</em></sub> = 0.05<em>V</em></span> and <span class="math inline"><em>I</em> = 5<em>m</em><em>A</em></span>, <span class="math inline">$\boxed{R_1 = 990 \Omega}$</span> and <span class="math inline">$\boxed{R_2 = 10 \Omega}$</span></p></li>
+<li><p><span class="math inline"><em>V</em><sub><em>o</em><em>u</em><em>t</em></sub> = 52.1<em>m</em><em>V</em></span> and <span class="math inline"><em>I</em><sub><em>T</em></sub> = 5.1<em>m</em><em>A</em></span>.</p></li>
+<li><p>The measurements are very close to the predicted values, but any difference can be explained by the resistance in the wires or resistor accuracy being off.</p></li>
+</ol>
+<h1 id="exercise-b">Exercise B</h1>
+<ol type="1">
+<li><p>The multimeter reads the current across R1, R2, and the total current, and the voltage between (a) and (b).</p>
+<figure>
+<img src="img_2.png" alt="" /><figcaption>Current Divider</figcaption>
+</figure></li>
+<li><p>Given the constraints:</p>
+<p><br /><span class="math display"><em>I</em><sub>1</sub> + <em>I</em><sub>2</sub> = 3<em>I</em><sub>2</sub> + <em>I</em><sub>2</sub> = 4<em>I</em><sub>2</sub> = <em>I</em><sub><em>T</em></sub></span><br /></p>
+<p><br /><span class="math display">$$ V = R_2 I_2 = R_2 \frac{I_T}{4} $$</span><br /></p>
+<p><br /><span class="math display">$$ \boxed{R_2 = \frac{4V}{I_T}} $$</span><br /></p>
+<p><br /><span class="math display">$$ V = R_1 I_1 = R_1 \frac{3I_T}{4} $$</span><br /></p>
+<p><br /><span class="math display">$$ \boxed{R_1 = \frac{4V}{3I_T}} $$</span><br /></p>
+<p>With <span class="math inline"><em>I</em><sub><em>T</em></sub> = 5<em>m</em><em>A</em></span> and <span class="math inline"><em>V</em> = 5<em>V</em></span>:</p>
+<p><br /><span class="math display">$$ \boxed{R_1 = 1333 \Omega} $$</span><br /></p>
+<p><br /><span class="math display">$$ \boxed{R_2 = 4000 \Omega} $$</span><br /></p></li>
+<li><p><span class="math inline"><em>I</em><sub>1</sub> = 3.80<em>m</em><em>A</em></span>, <span class="math inline"><em>I</em><sub>2</sub> = 1.22<em>m</em><em>A</em></span>, and <span class="math inline"><em>I</em><sub><em>T</em></sub> = 5.1<em>m</em><em>A</em></span>.</p></li>
+<li><p>The measurements where significantly closer to the theoretical values than exercise A. The discrepancy could again have come from the resistor thresholds and multimeter inaccuracy.</p></li>
+</ol>
+<h1 id="exercise-c">Exercise C</h1>
+<table>
+<thead>
+<tr class="header">
+<th>1)</th>
+<th><span class="math inline"><em>V</em><sub><em>s</em></sub></span></th>
+<th><span class="math inline"><em>I</em><sub>1</sub></span></th>
+<th><span class="math inline"><em>I</em><sub>2</sub></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5V</td>
+<td>2.3 mA</td>
+<td>1.0 mA</td>
+<td>1.3 mA</td>
+</tr>
+<tr class="even">
+<td>-5V</td>
+<td>-2.3 mA</td>
+<td>-1.0 mA</td>
+<td>-1.3 mA</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" type="1">
+<li>Yes. The current into the node equals the current out, and the measured values were almost perfectly demonstrative of this.</li>
+</ol>
+<h1 id="exercise-d">Exercise D</h1>
+<ol type="1">
+<li><p>Assuming the voltages across each branch are for each resistor 1-3, the multimeter measured values are:</p>
+<p><br /><span class="math display"><em>V</em><sub>1</sub> = 4.99<em>V</em>, <em>V</em><sub>2</sub> = 8.0<em>V</em>, <em>V</em><sub>3</sub> = 3.0<em>V</em></span><br /></p></li>
+<li><p>All three resistors have negative polarities for their respective loops following the passive sign convention.</p></li>
+<li><p><br /><span class="math display">0 = 5 − 4.99</span><br /></p></li>
+<li><p><br /><span class="math display">0 =  − (4.99) + 8.0 − (3.0)</span><br /></p></li>
+<li><p>Yes, with acceptable measurement error.</p></li>
+</ol>
+<h1 id="exercise-e">Exercise E</h1>
+<table>
+<thead>
+<tr class="header">
+<th>1)</th>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>V</td>
+<td>-1.760 V</td>
+<td>-0.680 V</td>
+<td>0.681 V</td>
+<td>-2.607 V</td>
+</tr>
+<tr class="even">
+<td>I</td>
+<td>-2.8 mA</td>
+<td>-2.03 mA</td>
+<td>2.3 mA</td>
+<td>2.7 mA</td>
+</tr>
+</tbody>
+</table>
+<ol start="2" type="1">
+<li><p>Combining the resistors in parallel, then three in series and using Ohms’ Law: 2.7 mA.</p></li>
+<li><table>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>P</td>
+<td>4.7 mW</td>
+<td>1.4 mW</td>
+<td>1.5 mW</td>
+<td>-7.0 mW</td>
+</tr>
+</tbody>
+</table></li>
+<li><p>Sum of powers: 0.6 mW</p></li>
+</ol>
+<h1 id="conclusion">Conclusion</h1>
+<p>Both of Kirchhoff’s Laws were proven to work for actual circuits. The values gathered throughout this lab were in line with both laws for the most part, with small discrepancies likely coming for resistor thresholds and multimeter error.</p>
